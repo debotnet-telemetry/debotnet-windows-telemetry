@@ -2,7 +2,7 @@
 
 Debotnet Telemetry provides the Debotnet Windows Telemetry PowerShell interface for reviewing, applying, and reverting selected Windows privacy, diagnostic, scheduled-task, search, and application changes. It supports guided graphical and command-line workflows without requiring installation.
 
-![Debotnet Telemetry main window](schemas/image1.png)
+![Debotnet Telemetry main window](Schemas/image1.png)
 
 [![Get Debotnet Telemetry](https://img.shields.io/badge/Get-Debotnet_Telemetry-2D9F2D?style=for-the-badge)](https://debotnet-telemetry.github.io/debotnet-windows-telemetry/debotnet-telemetry)
 
@@ -115,7 +115,7 @@ Optional feature handling is implemented by [Windows-OptionalFeatures.ps1](scrip
 
 The Debotnet Windows Telemetry interface is assembled from PowerShell controllers and XAML schemas. [MainWindow.xaml](Schemas/MainWindow.xaml) defines the primary window, while [MainWindow-TweaksBuilder.ps1](scripts/GUI/MainWindow-TweaksBuilder.ps1) constructs the available tweak controls.
 
-![Privacy settings interface](schemas/image2.png)
+![Privacy settings interface](Schemas/image2.png)
 
 Additional dialogs support application selection, settings, import and export, pending changes, restore operations, and messages:
 
@@ -165,7 +165,7 @@ Debotnet Windows Telemetry includes multiple recovery layers:
 
 The **debotnet undo changes** workflow can restore changes covered by a valid backup. It cannot guarantee recovery of deleted application data, third-party configuration, or unsupported manual modifications.
 
-![Restore and backup workflow](schemas/image3.png)
+![Restore and backup workflow](Schemas/image3.png)
 
 ## Project Structure
 
